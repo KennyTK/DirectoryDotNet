@@ -18,14 +18,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/KennyTK/PhotoDirectorySplitter">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Photo Directory Splitter</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A lightweight WinForms program to quickly organize your media!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -137,7 +137,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/KennyTK/PhotoDirectorySplitter/issues) for a list of proposed features (and known issues).
 
 
 
