@@ -57,13 +57,24 @@ namespace PhotoDirectorySplitter
             this.zoomInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.propertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -197,6 +208,10 @@ namespace PhotoDirectorySplitter
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.flowLayoutPanel1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.flowLayoutPanel2);
             this.splitContainer1.Size = new System.Drawing.Size(1211, 592);
             this.splitContainer1.SplitterDistance = 859;
             this.splitContainer1.TabIndex = 9;
@@ -282,6 +297,75 @@ namespace PhotoDirectorySplitter
             this.propertiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.propertiesToolStripMenuItem.Text = "Properties";
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.groupBox2);
+            this.flowLayoutPanel2.Controls.Add(this.groupBox3);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(342, 586);
+            this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.linkLabel1);
+            this.groupBox2.Location = new System.Drawing.Point(3, 3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(330, 85);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Mock Output File Container";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(6, 26);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(169, 13);
+            this.linkLabel1.TabIndex = 0;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "C:\\Users\\MockDirectory\\Weeeee";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Keybind : A";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.linkLabel2);
+            this.groupBox3.Location = new System.Drawing.Point(3, 94);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(330, 85);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Mock Output File Container";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Keybind : B";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(6, 26);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(157, 13);
+            this.linkLabel2.TabIndex = 0;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "C:\\Users\\MockDirectory\\Wooo";
+            // 
             // Mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -300,8 +384,14 @@ namespace PhotoDirectorySplitter
             this.menuStrip1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -336,6 +426,13 @@ namespace PhotoDirectorySplitter
         private System.Windows.Forms.ToolStripMenuItem propertiesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zoomInToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zoomOutToolStripMenuItem;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
