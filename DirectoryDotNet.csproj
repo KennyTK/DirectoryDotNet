@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{770C3501-22FA-4B2D-9517-B24D03D7E6C2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PhotoDirectorySplitter</RootNamespace>
-    <AssemblyName>PhotoDirectorySplitter</AssemblyName>
+    <RootNamespace>DirectoryDotNet</RootNamespace>
+    <AssemblyName>DirectoryDotNet</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
