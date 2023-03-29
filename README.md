@@ -16,14 +16,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/KennyTK/PhotoDirectorySplitter">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/KennyTK/DirectoryDotNet/DirectoryDotNet">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Photo Directory Splitter</h3>
+  <h3 align="center">Directory dot NET</h3>
 
   <p align="center">
-    A lightweight WinForms program to quickly organize your media!
+    A WinForms application to organize your files!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -43,7 +43,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#elevator-pitch">Elevator Pitch</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -66,19 +66,21 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ELEVATOR PITCH -->
+## Elevator Pitch
 
-[![Window Snip of Program][product-screenshot]](https://github.com/KennyTK/PhotoDirectorySplitter/)
+[![Window Snip of Program][product-screenshot]](https://github.com/KennyTK/DirectoryDotNet/DirectoryDotNet)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it. TODO
+Navigating with Windows File Explorer is an essential skill for computer users. On the other hand, it imposes limitations for power users.
 
 Here's why:
-* Your time should be focused on taking amazing pictures. A photo that captures a moment and digitally stores a view of the world
-* You shouldn't be spending hours sifting through photos to find 'that one picture'
+* TODO. moving lots of photos is time consuming. 
+* You can't sort photos then cut/paste. Can't queue commands. 
 * Organization makes us happy :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template! TODO
+* Creating directories is time consuming
+* Using windows media viewer to find the correct photo or using large icons is cumbersome
+* Creating scripts to move media doesn't work when it's only a handful of photos per sorted directory
+* This is a precursor project to sorting based on metadata. Automatic offloading from camera. OCR. other file/photo/txt solutions.
 
 ### Built With
 
@@ -167,9 +169,7 @@ Project Link: [https://github.com/KennyTK/PhotoDirectorySplitter](https://github
 ## Acknowledgements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-
-
+* [Clowd.Squirrel](https://github.com/clowd/Clowd.Squirrel)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
